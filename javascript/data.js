@@ -142,7 +142,7 @@ let data = {
   },
   {
     "rank": 15,
-    "name": "Crystal Palace",
+    "name": "Crystal_Palace",
     "played": 31,
     "won": 7,
     "drawn": 9,
