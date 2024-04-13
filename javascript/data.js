@@ -32,7 +32,7 @@ let data = {
   },
   {
     "rank": 4,
-    "name": " Aston_villa",
+    "name": "Aston_villa",
     "played": 32,
     "won": 18,
     "drawn": 6,
@@ -142,7 +142,7 @@ let data = {
   },
   {
     "rank": 15,
-    "name": "Chrystal Palace",
+    "name": "Crystal Palace",
     "played": 31,
     "won": 7,
     "drawn": 9,
