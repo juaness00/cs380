@@ -1,6 +1,6 @@
 const matchesForm = document.getElementById("matchesForm");
 
-function createMatches(){
+function createMatches(data){
     matchesForm.innerHTML = "";
 
     let usedIndexes = new Set();
@@ -56,7 +56,6 @@ function getRandomIndex(max){
     return Math.floor(Math.random() * max);
 }
 
-createMatches();
 
 matchesForm.addEventListener("submit", function(event){
     event.preventDefault(); 
@@ -70,7 +69,7 @@ matchesForm.addEventListener("submit", function(event){
             const team1Name = matchesForm.elements[i].name.replace("_score", "");
             const team2Name = matchesForm.elements[i + 1].name.replace("_score", "");
 
-            updateMatch(team1Score, team2Score, team1Name, team2Name);
+            updateMatch(data, team1Score, team2Score, team1Name, team2Name);
 
             i++;
         }
@@ -84,15 +83,15 @@ matchesForm.addEventListener("submit", function(event){
     matchesForm.reset();
 
 
-    createMatches();
+    createMatches(data);
 
     console.log(data);
 });
 
 
-function updateMatch(team1Score, team2Score, team1Name, team2Name){
-    const team1 = data.teams.find(team => team.name == team1Name);
-    const team2 = data.teams.find(team => team.name == team2Name);
+function updateMatch(data, team1Score, team2Score, team1Name, team2Name){
+    const team1 = data.teams.find(team => team.name === team1Name);
+    const team2 = data.teams.find(team => team.name === team2Name);
 
     if(team1Score > team2Score){
         team1.played += 1;
@@ -118,3 +117,14 @@ function updateMatch(team1Score, team2Score, team1Name, team2Name){
         console.log(`${team1Name} and ${team2Name} draw`);
     }
 }
+
+document.addEventListener("DOMContentLoaded", function(){
+    fetch('https://raw.githubusercontent.com/juaness00/cs380/master/javascript/team_data.json')
+        .then(response => response.json())
+        .then(data => {
+            createMatches(data);
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+});
