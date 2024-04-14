@@ -1,0 +1,39 @@
+#table
+{
+    padding: 10px 20px 20px 20px;
+    margin: auto;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    background-color: darkgray;
+}
+
+td
+{
+    text-align: center;
+}
+
+#header td
+{
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    border-bottom: 2px solid black;
+    padding: 10px 20px 5px 20px;
+}
+
+.teams td
+{
+    border-bottom: 2px solid black;
+}
+
+.image
+{
+    padding: 10px;
+}
+
+.position
+{
+    font-weight: bold;
+    font-size: x-large;
+}
+
