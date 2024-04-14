@@ -20,7 +20,7 @@ function fill(data){
 // learned from https://www.freecodecamp.org/news/how-to-read-json-file-in-javascript/
 // this is needed because we need to update this file when adding new scores
 document.addEventListener("DOMContentLoaded",function(){
-    fetch('https://raw.githubusercontent.com/juaness00/cs380/master/javascript/data.json')
+    fetch('https://raw.githubusercontent.com/juaness00/cs380/master/javascript/team_data.json')
         .then(response => response.json())
         .then(data => {
             fill(data);
