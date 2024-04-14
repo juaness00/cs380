@@ -10,9 +10,9 @@ let data = {
       "goalsDifference": "+44",
       "points": 73,
       "description": "Manchester City is a professional football club based in Manchester, England. They have a strong history of success in recent years, known for their attacking style of play under manager Pep Guardiola.",
-      "top_rated":{
-        "rodri": 8.09
-      }
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 2,
@@ -23,7 +23,10 @@ let data = {
       "lost": 4,
       "goalsDifference": "+51",
       "points": 71,
-      "description": "Arsenal Football Club, based in London, England, is one of the most successful clubs in English football history. They are known for their rich heritage and attractive style of play."
+      "description": "Arsenal Football Club, based in London, England, is one of the most successful clubs in English football history. They are known for their rich heritage and attractive style of play.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 3,
@@ -34,7 +37,10 @@ let data = {
       "lost": 2,
       "goalsDifference": "+42",
       "points": 71,
-      "description": "Liverpool Football Club, based in Liverpool, England, is one of the most successful and storied clubs in English football history. They are known for their passionate fanbase and iconic victories."
+      "description": "Liverpool Football Club, based in Liverpool, England, is one of the most successful and storied clubs in English football history. They are known for their passionate fanbase and iconic victories.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 4,
@@ -45,7 +51,10 @@ let data = {
       "lost": 8,
       "goalsDifference": "+17",
       "points": 60,
-      "description": "Aston Villa Football Club, based in Birmingham, England, has a rich history dating back to the late 19th century. They are known for their passionate supporters and historic achievements."
+      "description": "Aston Villa Football Club, based in Birmingham, England, has a rich history dating back to the late 19th century. They are known for their passionate supporters and historic achievements.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 5,
@@ -56,7 +65,10 @@ let data = {
       "lost": 8,
       "goalsDifference": "+16",
       "points": 60,
-      "description": "Tottenham Hotspur Football Club, based in London, England, is known for its stylish football and passionate fanbase. They have a history of success in both domestic and European competitions."
+      "description": "Tottenham Hotspur Football Club, based in London, England, is known for its stylish football and passionate fanbase. They have a history of success in both domestic and European competitions.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 6,
@@ -67,7 +79,10 @@ let data = {
       "lost": 12,
       "goalsDifference": "+17",
       "points": 50,
-      "description": "Newcastle United Football Club, based in Newcastle upon Tyne, England, has a devoted fanbase and a history of competing at the highest levels of English football."
+      "description": "Newcastle United Football Club, based in Newcastle upon Tyne, England, has a devoted fanbase and a history of competing at the highest levels of English football.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 7,
@@ -78,7 +93,10 @@ let data = {
       "lost": 12,
       "goalsDifference": "-1",
       "points": 50,
-      "description": "Manchester United Football Club, based in Manchester, England, is one of the most successful clubs in English football history. They have a global fanbase and a legacy of success."
+      "description": "Manchester United Football Club, based in Manchester, England, is one of the most successful clubs in English football history. They have a global fanbase and a legacy of success.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 8,
@@ -89,7 +107,10 @@ let data = {
       "lost": 10,
       "goalsDifference": "-4",
       "points": 48,
-      "description": "West Ham United Football Club, based in London, England, has a history of passionate support and a reputation for producing talented players. They have had success both domestically and in Europe."
+      "description": "West Ham United Football Club, based in London, England, has a history of passionate support and a reputation for producing talented players. They have had success both domestically and in Europe.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 9,
@@ -100,7 +121,10 @@ let data = {
       "lost": 10,
       "goalsDifference": "+3",
       "points": 44,
-      "description": "Chelsea Football Club, based in London, England, is one of the top clubs in English and European football. Known for their success in recent years, they have a strong squad and passionate fanbase."
+      "description": "Chelsea Football Club, based in London, England, is one of the top clubs in English and European football. Known for their success in recent years, they have a strong squad and passionate fanbase.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 10,
@@ -111,7 +135,10 @@ let data = {
       "lost": 10,
       "goalsDifference": "+2",
       "points": 44,
-      "description": "Brighton & Hove Albion Football Club, based in Brighton, England, has a history of competing in the top tiers of English football. They are known for their community spirit and attractive style of play."
+      "description": "Brighton & Hove Albion Football Club, based in Brighton, England, has a history of competing in the top tiers of English football. They are known for their community spirit and attractive style of play.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 11,
@@ -122,7 +149,10 @@ let data = {
       "lost": 13,
       "goalsDifference": "-5",
       "points": 43,
-      "description": "Wolverhampton Wanderers Football Club, known as Wolves, is based in Wolverhampton, England. They have a strong history and have experienced success in both domestic and European competitions."
+      "description": "Wolverhampton Wanderers Football Club, known as Wolves, is based in Wolverhampton, England. They have a strong history and have experienced success in both domestic and European competitions.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 12,
@@ -133,7 +163,10 @@ let data = {
       "lost": 12,
       "goalsDifference": "-10",
       "points": 42,
-      "description": "AFC Bournemouth, based in Bournemouth, England, has risen through the English football leagues in recent years. They are known for their attacking style of play and passionate supporters."
+      "description": "AFC Bournemouth, based in Bournemouth, England, has risen through the English football leagues in recent years. They are known for their attacking style of play and passionate supporters.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 13,
@@ -144,7 +177,10 @@ let data = {
       "lost": 15,
       "goalsDifference": "-4",
       "points": 39,
-      "description": "Fulham Football Club, based in London, England, has a rich history and has competed in the top tiers of English football. They are known for their historic stadium and loyal fanbase."
+      "description": "Fulham Football Club, based in London, England, has a rich history and has competed in the top tiers of English football. They are known for their historic stadium and loyal fanbase.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 14,
@@ -155,7 +191,10 @@ let data = {
       "lost": 17,
       "goalsDifference": "-11",
       "points": 32,
-      "description": "Brentford Football Club, based in London, England, has a strong fanbase and a history of competing in the lower divisions of English football. They have recently earned promotion to the top tier."
+      "description": "Brentford Football Club, based in London, England, has a strong fanbase and a history of competing in the lower divisions of English football. They have recently earned promotion to the top tier.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 15,
@@ -166,7 +205,10 @@ let data = {
       "lost": 15,
       "goalsDifference": "-18",
       "points": 30,
-      "description": "Crystal Palace Football Club, based in London, England, has a loyal fanbase and a history of exciting football. They have competed in the top tiers of English football for many years."
+      "description": "Crystal Palace Football Club, based in London, England, has a loyal fanbase and a history of exciting football. They have competed in the top tiers of English football for many years.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 16,
@@ -177,7 +219,10 @@ let data = {
       "lost": 14,
       "goalsDifference": "-10",
       "points": 27,
-      "description": "Everton Football Club, based in Liverpool, England, has a long history and a strong fanbase. They have a legacy of success in English football, including European competition."
+      "description": "Everton Football Club, based in Liverpool, England, has a long history and a strong fanbase. They have a legacy of success in English football, including European competition.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 17,
@@ -188,7 +233,10 @@ let data = {
       "lost": 17,
       "goalsDifference": "-16",
       "points": 26,
-      "description": "Nottingham Forest Football Club, based in Nottingham, England, has a rich history of success. They are known for their iconic European Cup victories under legendary manager Brian Clough."
+      "description": "Nottingham Forest Football Club, based in Nottingham, England, has a rich history of success. They are known for their iconic European Cup victories under legendary manager Brian Clough.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 18,
@@ -199,7 +247,10 @@ let data = {
       "lost": 20,
       "goalsDifference": "-24",
       "points": 25,
-      "description": "Luton Town Football Club, based in Luton, England, has a long history in English football. They have experienced both success and challenging times, with a loyal fanbase supporting them through thick and thin."
+      "description": "Luton Town Football Club, based in Luton, England, has a long history in English football. They have experienced both success and challenging times, with a loyal fanbase supporting them through thick and thin.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 19,
@@ -210,7 +261,10 @@ let data = {
       "lost": 21,
       "goalsDifference": "-35",
       "points": 20,
-      "description": "Burnley Football Club, based in Burnley, England, has a history dating back to the late 19th century. They have a strong local following and a reputation for resilience on the pitch."
+      "description": "Burnley Football Club, based in Burnley, England, has a history dating back to the late 19th century. They have a strong local following and a reputation for resilience on the pitch.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     },
     {
       "rank": 20,
@@ -221,7 +275,10 @@ let data = {
       "lost": 22,
       "goalsDifference": "-54",
       "points": 16,
-      "description": "Sheffield United Football Club, based in Sheffield, England, has a history of success in English football. They have a loyal fanbase and have competed in the top tiers of English football."
+      "description": "Sheffield United Football Club, based in Sheffield, England, has a history of success in English football. They have a loyal fanbase and have competed in the top tiers of English football.",
+      "top_rated":{},
+      "top_scorers":{},
+      "top_assists":{}
     }
   ]
 }
