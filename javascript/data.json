@@ -1,6 +1,77 @@
 {
     "teams": [
         {
+            "rank": 1,
+            "name": "Manchester_City",
+            "played": 32,
+            "won": 22,
+            "drawn": 7,
+            "lost": 3,
+            "goalsDifference": "+44",
+            "points": 73,
+            "description": "Manchester City is a professional football club based in Manchester, England. They have a strong history of success in recent years, known for their attacking style of play under manager Pep Guardiola.",
+            "top_rated":{"rodri": 8.09, "phil_foden": 7.76, "erling_haaland": 7.58,"bernando_silva": 7.50},
+            "top_scorers":{"erling_haaland": 20,"phil_foden":14,"julian_alvares":8,"rodri": 7},
+            "top_assists":{"julian_alvares":9, "rodri": 7,"phil_foden":7, "kevin_de_bruyne": 6}
+          },
+          {
+            "rank": 2,
+            "name": "Arsenal",
+            "played": 31,
+            "won": 22,
+            "drawn": 5,
+            "lost": 4,
+            "goalsDifference": "+51",
+            "points": 71,
+            "description": "Arsenal Football Club, based in London, England, is one of the most successful clubs in English football history. They are known for their rich heritage and attractive style of play.",
+            "top_rated":{"bukayo_saka": 7.94, "declan_rice": 7.61,"martin_odegaard":7.56,"oleksandr_zinchenko":7.26},
+            "top_scorers":{"bukayo_saka": 14, "kai_haverts": 9,"leandro_trossard": 8,"martin_odegaard":7},
+            "top_assists":{"bukayo_saka": 8,"martin_odegaard":6,"declan_rice": 5,"kai_haverts": 5}
+          },
+          {
+            "rank": 3,
+            "name": "Liverpool",
+            "played": 31,
+            "won": 21,
+            "drawn": 8,
+            "lost": 2,
+            "goalsDifference": "+42",
+            "points": 71,
+            "description": "Liverpool Football Club, based in Liverpool, England, is one of the most successful and storied clubs in English football history. They are known for their passionate fanbase and iconic victories.",
+            "top_rated":{"mohamed_salah": 7.80,"trent_alexander_arnold": 7.63,"alexis_mac_allister": 7.58,"virgil_van_dijk": 7.46},
+            "top_scorers":{"mohamed_salah": 17, "darwin_nunez": 11,"diogo_jota": 9,"luis_diaz": 8},
+            "top_assists":{"mohamed_salah": 9,"darwin_nunez": 8, "alexis_mac_allister": 5, "trent_alexander_arnold": 4}
+          },
+          {
+            "rank": 4,
+            "name": "Aston_villa",
+            "played": 32,
+            "won": 18,
+            "drawn": 6,
+            "lost": 8,
+            "goalsDifference": "+17",
+            "points": 60,
+            "description": "Aston Villa Football Club, based in Birmingham, England, has a rich history dating back to the late 19th century. They are known for their passionate supporters and historic achievements.",
+            "top_rated":{"ollie_watkins": 7.48,"douglas_luiz": 7.43, "jhon_mcginn":7.26," leon_bailey":7.13},
+            "top_scorers":{"ollie_watkins": 19, "leon_bailey":9,"douglas_luiz": 9, "jhon_mcginn":6},
+            "top_assists":{"ollie_watkins": 10, "leon_bailey":8, "moussa_diaby": 7, "youri_tielemans": 6}
+          },
+          {
+            "rank": 5,
+            "name": "Tottenham",
+            "played": 32,
+            "won": 18,
+            "drawn": 6,
+            "lost": 8,
+            "goalsDifference": "+16",
+            "points": 60,
+            "description": "Tottenham Hotspur Football Club, based in London, England, is known for its stylish football and passionate fanbase. They have a history of success in both domestic and European competitions.",
+            "top_rated":{"james_maddison": 7.69, "heung_min_son": 7.52, "pedro_porro": 7.47, "cristian_romero": 7.35},
+            "top_scorers":{"heung_min_son": 15, "richarlison": 10, "dejan_kulusevki": 6, "brennan_johnson": 5},
+            "top_assists":{"heung_min_son": 9, "james_maddison": 7, "pedro_porro": 7, "brennan_johnson": 7}
+          },
+        {
+            
             "rank": 6,
             "name": "Newcastle_United",
             "played": 32,
