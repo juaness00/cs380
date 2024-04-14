@@ -1,4 +1,4 @@
-function fill(){
+function fill(data){
     console.log("starting");
     for(let i = 0; i < 20; i++){
         console.log(data["teams"][i]["rank"]);
@@ -17,6 +17,12 @@ function fill(){
     }
 }
 
+// learned from https://www.freecodecamp.org/news/how-to-read-json-file-in-javascript/
+// this is needed because we need to update this file when adding new scores
 document.addEventListener("DOMContentLoaded",function(){
-    fill();
+    fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+            fill(data);
+        });
 });

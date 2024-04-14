@@ -1,0 +1,439 @@
+{
+    "teams": [
+        {
+            "rank": 6,
+            "name": "Newcastle_United",
+            "played": 32,
+            "won": 15,
+            "drawn": 5,
+            "lost": 12,
+            "goalsDifference": "+17",
+            "points": 50,
+            "description": "Newcastle United Football Club, based in Newcastle upon Tyne, England, has a devoted fanbase and a history of competing at the highest levels of English football.",
+            "top_rated": {
+                "harvey_barnes": 8.59,
+                "callum_wilson": 8.31,
+                "kieran_trippier": 7.49,
+                "alexander_isak": 7.23
+            },
+            "top_scorers": {
+                "callum_wilson": 13,
+                "kieran_trippier": 8,
+                "bruno_guimaraes": 7,
+                "jacob_murphy": 6
+            },
+            "top_assists": {
+                "bruno_guimaraes": 10,
+                "jacob_murphy": 9,
+                "anthony_gordon": 3,
+                "callum_wilson": 3
+            }
+        },
+        {
+            "rank": 7,
+            "name": "Manchester_United",
+            "played": 32,
+            "won": 15,
+            "drawn": 5,
+            "lost": 12,
+            "goalsDifference": "-1",
+            "points": 50,
+            "description": "Manchester United Football Club, based in Manchester, England, is one of the most successful clubs in English football history. They have a global fanbase and a legacy of success.",
+            "top_rated": {
+                "alejandro_garnacho": 8.57,
+                "rasmus_hojlund": 8.48,
+                "marcus_rashford": 8.42,
+                "Casemiro": 7.58
+            },
+            "top_scorers": {
+                "diogo_dalot": 16,
+                "harry_maguire": 14,
+                "marcus_rashford": 8,
+                "alejandro_garnacho": 6
+            },
+            "top_assists": {
+                "alejandro_garnacho": 5,
+                "Casemiro": 5,
+                "diogo_dalot": 4,
+                "scott_mctominay": 4
+            }
+        },
+        {
+            "rank": 8,
+            "name": "West_Ham_United",
+            "played": 32,
+            "won": 13,
+            "drawn": 9,
+            "lost": 10,
+            "goalsDifference": "-4",
+            "points": 48,
+            "description": "West Ham United Football Club, based in London, England, has a history of passionate support and a reputation for producing talented players. They have had success both domestically and in Europe.",
+            "top_rated": {
+                "jarrod_bowen": 8.37,
+                "tomas_soucek": 8.33,
+                "lucas_paqueta": 7.93,
+                "vladimir_coufal": 7.5
+            },
+            "top_scorers": {
+                "mohammed_kudus": 20,
+                "james_ward_prowse": 10,
+                "vladimir_coufal": 9,
+                "lucas_paqueta": 8
+            },
+            "top_assists": {
+                "mohammed_kudus": 9,
+                "jarrod_bowen": 8,
+                "tomas_soucek": 7,
+                "james_ward_prowse": 3
+            }
+        },
+        {
+            "rank": 9,
+            "name": "Chelsea",
+            "played": 30,
+            "won": 12,
+            "drawn": 8,
+            "lost": 10,
+            "goalsDifference": "+3",
+            "points": 44,
+            "description": "Chelsea Football Club, based in London, England, is one of the top clubs in English and European football. Known for their success in recent years, they have a strong squad and passionate fanbase.",
+            "top_rated": {
+                "conor_gallagher": 8.18,
+                "levi_colwill": 8.01,
+                "malo_gusto": 7.73,
+                "mykhaylo_mudryk": 7.65
+            },
+            "top_scorers": {
+                "raheem_sterling": 19,
+                "malo_gusto": 15,
+                "nicolas_jackson": 12,
+                "levi_colwill": 5
+            },
+            "top_assists": {
+                "nicolas_jackson": 10,
+                "malo_gusto": 9,
+                "cole_palmer": 7,
+                "levi_colwill": 7
+            }
+        },
+        {
+            "rank": 10,
+            "name": "Brighton",
+            "played": 32,
+            "won": 11,
+            "drawn": 11,
+            "lost": 10,
+            "goalsDifference": "+2",
+            "points": 44,
+            "description": "Brighton & Hove Albion Football Club, based in Brighton, England, has a history of competing in the top tiers of English football. They are known for their community spirit and attractive style of play.",
+            "top_rated": {
+                "simon_adingra": 8.42,
+                "tariq_lamptey": 8.34,
+                "joao_pedro": 7.46,
+                "pervis_estupinan": 7.26
+            },
+            "top_scorers": {
+                "evan_ferguson": 20,
+                "joao_pedro": 18,
+                "pascal_gross": 13,
+                "kaoru_mitoma": 7
+            },
+            "top_assists": {
+                "danny_welbeck": 8,
+                "pervis_estupinan": 7,
+                "evan_ferguson": 5,
+                "pascal_gross": 3
+            }
+        },
+        {
+            "rank": 11,
+            "name": "Wolverhampton_Wanderers",
+            "played": 32,
+            "won": 12,
+            "drawn": 7,
+            "lost": 13,
+            "goalsDifference": "-5",
+            "points": 43,
+            "description": "Wolverhampton Wanderers Football Club, known as Wolves, is based in Wolverhampton, England. They have a strong history and have experienced success in both domestic and European competitions.",
+            "top_rated": {
+                "pedro_neto": 8.29,
+                "hee_chan_hwang": 8.22,
+                "mario_lemina": 8.02,
+                "matheus_cunha": 7.33
+            },
+            "top_scorers": {
+                "pablo_sarabia": 16,
+                "hee_chan_hwang": 14,
+                "pedro_neto": 14,
+                "matheus_cunha": 6
+            },
+            "top_assists": {
+                "matheus_cunha": 10,
+                "pablo_sarabia": 10,
+                "pedro_neto": 5,
+                "hee_chan_hwang": 5
+            }
+        },
+        {
+            "rank": 12,
+            "name": "Bournemouth",
+            "played": 32,
+            "won": 11,
+            "drawn": 9,
+            "lost": 12,
+            "goalsDifference": "-10",
+            "points": 42,
+            "description": "AFC Bournemouth, based in Bournemouth, England, has risen through the English football leagues in recent years. They are known for their attacking style of play and passionate supporters.",
+            "top_rated": {
+                "lewis_cook": 8.47,
+                " antoine_semenyo": 8.26,
+                "marcus_tavernier": 8.25,
+                "ryan_christie": 7.46
+            },
+            "top_scorers": {
+                "marcos_senesi": 20,
+                "sustin_kluivert": 16,
+                " dominic_solanke": 12,
+                " antoine_semenyo": 7
+            },
+            "top_assists": {
+                "marcus_tavernier": 9,
+                " antoine_semenyo": 8,
+                " dominic_solanke": 7,
+                "sustin_kluivert": 6
+            }
+        },
+        {
+            "rank": 13,
+            "name": "Fulham",
+            "played": 32,
+            "won": 11,
+            "drawn": 6,
+            "lost": 15,
+            "goalsDifference": "-4",
+            "points": 39,
+            "description": "Fulham Football Club, based in London, England, has a rich history and has competed in the top tiers of English football. They are known for their historic stadium and loyal fanbase.",
+            "top_rated": {
+                "alex_iwobi": 8.13,
+                "Willian": 7.76,
+                "joao_palhinha": 7.58,
+                " raul_jimenez": 7.23
+            },
+            "top_scorers": {
+                "Willian": 20,
+                "rodrigo_muniz": 19,
+                "antonee_robinson": 10,
+                "harry_wilson": 8
+            },
+            "top_assists": {
+                "harry_wilson": 9,
+                "joao_palhinha": 8,
+                "rodrigo_muniz": 7,
+                "alex_iwobi": 7
+            }
+        },
+        {
+            "rank": 14,
+            "name": "Brentford",
+            "played": 33,
+            "won": 8,
+            "drawn": 8,
+            "lost": 17,
+            "goalsDifference": "-11",
+            "points": 32,
+            "description": "Brentford Football Club, based in London, England, has a strong fanbase and a history of competing in the lower divisions of English football. They have recently earned promotion to the top tier.",
+            "top_rated": {
+                "yoane_wissa": 8.39,
+                "christian_norgaard": 7.98,
+                "ivan_toney": 7.82,
+                "bryan_mbeumo": 7.58
+            },
+            "top_scorers": {
+                "sergio_reguilon": 18,
+                "neal_maupay": 15,
+                "christian_norgaard": 13,
+                "bryan_mbeumo": 6
+            },
+            "top_assists": {
+                "sergio_reguilon": 10,
+                "ivan_toney": 5,
+                "mathias_jensen": 3,
+                "neal_maupay": 3
+            }
+        },
+        {
+            "rank": 15,
+            "name": "Crystal_Palace",
+            "played": 31,
+            "won": 7,
+            "drawn": 9,
+            "lost": 15,
+            "goalsDifference": "-18",
+            "points": 30,
+            "description": "Crystal Palace Football Club, based in London, England, has a loyal fanbase and a history of exciting football. They have competed in the top tiers of English football for many years.",
+            "top_rated": {
+                "odsonne_edouard": 8.44,
+                "tyrick_mitchell": 8.13,
+                "jefferson_lerma": 7.89,
+                "eberechi_eze": 7.39
+            },
+            "top_scorers": {
+                "jean_philippe_mateta": 17,
+                "tyrick_mitchell": 16,
+                "michael_olise": 12,
+                "odsonne_edouard": 9
+            },
+            "top_assists": {
+                "jean_philippe_mateta": 10,
+                "jordan_ayew": 9,
+                "jefferson_lerma": 9,
+                "michael_olise": 5
+            }
+        },
+        {
+            "rank": 16,
+            "name": "Everton",
+            "played": 31,
+            "won": 9,
+            "drawn": 8,
+            "lost": 14,
+            "goalsDifference": "-10",
+            "points": 27,
+            "description": "Everton Football Club, based in Liverpool, England, has a long history and a strong fanbase. They have a legacy of success in English football, including European competition.",
+            "top_rated": {
+                "nathan_patterson": 8.12,
+                "dominic_calvert_lewin": 8.11,
+                "james_garner": 7.42,
+                "Beto": 7.26
+            },
+            "top_scorers": {
+                "dominic_calvert_lewin": 20,
+                "nathan_patterson": 16,
+                "dwight_mcneil": 16,
+                "jarrad_branthwaite": 11
+            },
+            "top_assists": {
+                "dominic_calvert_lewin": 9,
+                "nathan_patterson": 9,
+                "abdoulaye_doucoure": 6,
+                "Beto": 4
+            }
+        },
+        {
+            "rank": 17,
+            "name": "Nottingham_Forest",
+            "played": 33,
+            "won": 7,
+            "drawn": 9,
+            "lost": 17,
+            "goalsDifference": "-16",
+            "points": 26,
+            "description": "Nottingham Forest Football Club, based in Nottingham, England, has a rich history of success. They are known for their iconic European Cup victories under legendary manager Brian Clough.",
+            "top_rated": {
+                "callum_hudson_odoi": 8.28,
+                "anthony_elanga": 8.13,
+                "morgan_gibbs_white": 7.42,
+                "chris_wood": 7.29
+            },
+            "top_scorers": {
+                "taiwo_awoniyi": 18,
+                "harry_toffolo": 17,
+                "callum_hudson_odoi": 12,
+                "chris_wood": 9
+            },
+            "top_assists": {
+                "taiwo_awoniyi": 10,
+                "chris_wood": 9,
+                "nicolas_dominguez": 3,
+                "anthony_elanga": 3
+            }
+        },
+        {
+            "rank": 18,
+            "name": "Luton",
+            "played": 33,
+            "won": 6,
+            "drawn": 7,
+            "lost": 20,
+            "goalsDifference": "-24",
+            "points": 25,
+            "description": "Luton Town Football Club, based in Luton, England, has a long history in English football. They have experienced both success and challenging times, with a loyal fanbase supporting them through thick and thin.",
+            "top_rated": {
+                "elijah_adebayo": 8.21,
+                "carlton_morris": 7.72,
+                "reece_burke": 7.61,
+                "ross_barkley": 7.32
+            },
+            "top_scorers": {
+                "alfie_doughty": 16,
+                "reece_burke": 14,
+                "elijah_adebayo": 11,
+                "chiedozie_ogbene": 10
+            },
+            "top_assists": {
+                "andros_townsend": 10,
+                "carlton_morris": 9,
+                "reece_burke": 7,
+                "elijah_adebayo": 3
+            }
+        },
+        {
+            "rank": 19,
+            "name": "Burnley",
+            "played": 33,
+            "won": 4,
+            "drawn": 8,
+            "lost": 21,
+            "goalsDifference": "-35",
+            "points": 20,
+            "description": "Burnley Football Club, based in Burnley, England, has a history dating back to the late 19th century. They have a strong local following and a reputation for resilience on the pitch.",
+            "top_rated": {
+                "sander_berge": 8.07,
+                "jacob_bruun_larsen": 7.9,
+                "dara_oshea": 7.45,
+                "lyle_foster": 7.44
+            },
+            "top_scorers": {
+                "johann_berg_gudmundsson": 13,
+                "zeki_amdouni": 13,
+                "lyle_foster": 11,
+                "dara_oshea": 9
+            },
+            "top_assists": {
+                "johann_berg_gudmundsson": 7,
+                "david_datro_fofana": 7,
+                "josh_cullen": 6,
+                "lyle_foster": 3
+            }
+        },
+        {
+            "rank": 20,
+            "name": "Sheffield_United",
+            "played": 32,
+            "won": 3,
+            "drawn": 7,
+            "lost": 22,
+            "goalsDifference": "-54",
+            "points": 16,
+            "description": "Sheffield United Football Club, based in Sheffield, England, has a history of success in English football. They have a loyal fanbase and have competed in the top tiers of English football.",
+            "top_rated": {
+                "gustavo_hamer": 8.55,
+                "ben_brereton_diaz": 8.37,
+                "george_baldock": 8.25,
+                "james_mcatee": 7.52
+            },
+            "top_scorers": {
+                "gustavo_hamer": 20,
+                "ben_brereton_diaz": 14,
+                "oliver_mcburnie": 7,
+                "oliver_norwood": 5
+            },
+            "top_assists": {
+                "vinicius_de_souza_costa": 10,
+                "james_mcatee": 9,
+                "cameron_archer": 9,
+                "ben_brereton_diaz": 4
+            }
+        }
+    ]
+}
