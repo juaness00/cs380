@@ -7,7 +7,7 @@ function fill(data){
 
         row.cells[0].innerHTML = data["teams"][i]["rank"];
         row.cells[1].innerHTML = '<img src="teams/'+data["teams"][i]["name"].toLowerCase()+'/'+data["teams"][i]["name"].toLowerCase()+'.png">';
-        row.cells[2].innerHTML = data["teams"][i]["name"].replace("_", " ");  
+        row.cells[2].innerHTML = data["teams"][i]["name"].replaceAll("_", " ");  
         row.cells[3].innerHTML = data["teams"][i]["played"];
         row.cells[4].innerHTML = data["teams"][i]["won"];
         row.cells[5].innerHTML = data["teams"][i]["drawn"];
@@ -20,7 +20,7 @@ function fill(data){
 // learned from https://www.freecodecamp.org/news/how-to-read-json-file-in-javascript/
 // this is needed because we need to update this file when adding new scores
 document.addEventListener("DOMContentLoaded",function(){
-    fetch('https://raw.githubusercontent.com/juaness00/cs380/master/javascript/team_data.json')
+    fetch('https://getpantry.cloud/apiv1/pantry/28e85847-9a92-4320-a997-d44fc3601859/basket/teams')
         .then(response => response.json())
         .then(data => {
             fill(data);
