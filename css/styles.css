@@ -1,10 +1,15 @@
+body
+{   
+    background-image: url("../images/images.png");
+}
 #table
 {
+    color: white;
     padding: 10px 20px 20px 20px;
     margin: auto;
     border: 2px solid lightgray;
     border-radius: 5px;
-    background-color: darkgray;
+    background-color: #290C3B;
 }
 
 td
@@ -16,9 +21,13 @@ td
 {
     font-weight: bold;
     font-size: x-large;
-    color: black;
+    color: white;
     border-bottom: 2px solid black;
     padding: 10px 20px 5px 20px;
+}
+.name
+{
+    font-weight: bold;    
 }
 
 .teams td
