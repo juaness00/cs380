@@ -29,8 +29,7 @@ body
 
 .navbar p
 {
-    display: inline-block;
-    padding-left: 2in;
+    text-align: center;
     color: white;
     font-size: xx-large;
 }
@@ -38,7 +37,7 @@ body
 #table
 {
     color: white;
-    padding: 10px 20px 20px 20px;
+    padding: 20px;
     margin: auto;
     border: 2px solid lightgray;
     border-radius: 5px;
@@ -66,12 +65,14 @@ td
 }
 .name
 {
-    font-weight: bold;    
+    font-weight: bold;  
+    font-size: large;  
 }
 
 .teams td
 {
     border-bottom: 2px solid black;
+    font-size: large;
 }
 
 .image
