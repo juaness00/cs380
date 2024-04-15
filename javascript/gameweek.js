@@ -1,4 +1,4 @@
-//https://stackoverflow.com/questions/66184755/can-i-store-the-result-of-fetch-in-a-global-variable-using-javascript
+
 
 const matchesForm = document.getElementById("matchesForm");
 var teamData = {}
@@ -6,6 +6,7 @@ var teamData = {}
 // this is needed because we need to update this file when adding new scores
 document.addEventListener("DOMContentLoaded", myFunction);
 
+//https://stackoverflow.com/questions/66184755/can-i-store-the-result-of-fetch-in-a-global-variable-using-javascript
 async function myFunction(){
     const res = await fetch('https://getpantry.cloud/apiv1/pantry/28e85847-9a92-4320-a997-d44fc3601859/basket/teams')
     const data = await res.json()

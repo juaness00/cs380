@@ -1,4 +1,4 @@
-function fill(data) {
+function fill(data){
     console.log("starting");
     const teamName = document.title.replaceAll(" ","_");
     console.log(teamName)
@@ -37,7 +37,7 @@ function fill(data) {
 
 function createHTML(object, header){
     let rowsHTML = "";
-    for (const [name, value] of Object.entries(object)) {
+    for (const [name, value] of Object.entries(object)){
         rowsHTML += `
             <tr>
                 <td><img src="${name}.png">${name.replaceAll("_", " ")}  ${value}</td>
@@ -52,7 +52,7 @@ function createHTML(object, header){
 
 // learned from https://www.freecodecamp.org/news/how-to-read-json-file-in-javascript/
 // this is needed because we need to update this file when adding new scores
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function(){
     fetch('https://getpantry.cloud/apiv1/pantry/28e85847-9a92-4320-a997-d44fc3601859/basket/teams')
         .then(response => response.json())
         .then(data => {

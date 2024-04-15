@@ -17,6 +17,10 @@ td
     text-align: center;
 }
 
+tr:hover{
+    background-color: #641694;
+
+}
 #header td
 {
     font-weight: bold;
